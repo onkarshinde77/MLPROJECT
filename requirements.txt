@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# to fetch the setup.py automatic & run
+-e .
