@@ -16,5 +16,19 @@ logging.basicConfig(
 
 # if __name__=='__main__':
 #     logging.info("Logging has starting")
+
 # Note if you want to use this file to another file then use give code
 # import logger as logging
+
+'''
+Logging in Python is used to record information about your program’s execution—such as events,
+errors, and status messages—in a structured, timestamped way. It offers several key advantages
+over simple print statements:
+
+# In machine learning workflows (like your code example), logging typically documents:
+
+1) The start/stop of data processes (e.g., data loading),
+2) Information about data or models (shapes, sample values, hyperparameters),
+3) Warnings about bad or missing data,
+4) Errors encountered during ingestion, training, or prediction.
+'''
