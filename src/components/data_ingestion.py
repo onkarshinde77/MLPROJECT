@@ -1,11 +1,13 @@
 import sys
 import os
 import pandas as pd
-from src.logger import logging
-from src.exception import CustomException
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+
+from src.logger import logging
+from src.exception import CustomException
+from .data_transformation import DataTransformation
 
 # this class only store the file path of train,test,raw data
 @dataclass
@@ -43,5 +45,8 @@ class DataIngestion:
         
 if __name__=='__main__':
     obj = DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data , test_data = obj.initiate_data_ingestion()
+    
+    transform = DataTransformation()
+    transform.initiate_data_tranform(train_data,test_data)
             
