@@ -14,5 +14,7 @@ logging.basicConfig(
     level =logging.INFO,
 )
 
-if __name__=='__main__':
-    logging.info("Logging has starting")
+# if __name__=='__main__':
+#     logging.info("Logging has starting")
+# Note if you want to use this file to another file then use give code
+# import logger as logging

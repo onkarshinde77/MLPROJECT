@@ -4,7 +4,6 @@ Read documnetation custom exception handling - https://docs.python.org/3/tutoria
 '''
 
 import sys
-import logging
 
 def error_message(error,error_details:sys):
     _,_,exc_tb = error_details.exc_info()
@@ -22,8 +21,3 @@ class CustomException(Exception):
         return self.error_message
 
 
-try:
-    1/0
-except Exception as e:
-    logging.info("Division by zero")
-    raise CustomException(e,sys)
