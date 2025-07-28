@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from src.logger import logging
 from src.exception import CustomException
 from .data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
 
 # this class only store the file path of train,test,raw data
 @dataclass
@@ -48,5 +49,10 @@ if __name__=='__main__':
     train_data , test_data = obj.initiate_data_ingestion()
     
     transform = DataTransformation()
-    transform.initiate_data_tranform(train_data,test_data)
+    train_arr,test_arr,path_ = transform.initiate_data_tranform(train_data,test_data)
+    
+    model = ModelTrainer()
+    r2_score = model.initiate_model_trainer(train_array=train_arr,test_array=test_arr)
+    print(r2_score)
+    
             
