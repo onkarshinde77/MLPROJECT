@@ -1,0 +1,12 @@
+[2025-07-28 20:39:26,983] 27 root - INFO - Enter the data ingestion method or component
+[2025-07-28 20:39:26,992] 30 root - INFO - Read the dataset as dataframe
+[2025-07-28 20:39:27,004] 35 root - INFO - train test split initiated
+[2025-07-28 20:39:27,065] 63 root - INFO - Reading train and test data completed
+[2025-07-28 20:39:27,065] 65 root - INFO - Obtaining preprocessing object
+[2025-07-28 20:39:27,065] 45 root - INFO - Numerical columns standard scalling complete
+[2025-07-28 20:39:27,066] 46 root - INFO - Categorical columns encoding complete
+[2025-07-28 20:39:27,068] 77 root - INFO - Applying preprocessing object on traning or test dataframe
+[2025-07-28 20:39:27,105] 90 root - INFO - saved preprocessing object
+[2025-07-28 20:39:27,114] 27 root - INFO - Split training data and test data
+[2025-07-28 20:39:27,118] 134 root - INFO - Hyperparameter finetune starting!
+[2025-07-28 20:39:40,236] 136 root - INFO - Hyperparameter finetune completed!
