@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from src.exception import CustomException
 from src.logger import logging
 from dataclasses import dataclass
-from src.utils import save_obj ,evaluate_models
+from src.utils import save_obj ,evaluate_models , finetune_hyperparameter
 
 
 @dataclass
@@ -38,22 +38,63 @@ class ModelTrainer:
             X_test = test_array[:, :-1]
             y_test = test_array[:, -1]
 
-            models = {
-                "Linear Regression": LinearRegression(),
-                "Lasso": Lasso(),
-                "Ridge": Ridge(),
-                "K-Neighbors Regressor": KNeighborsRegressor(),
-                "Decision Tree": DecisionTreeRegressor(),
-                "AdaBoost Regressor": AdaBoostRegressor(),
-                "GradientBoosting" : GradientBoostingRegressor(),
-                "Random Forest Regressor": RandomForestRegressor(),
-                "XGBRegressor": XGBRegressor(n_estimators=100), 
-                "CatBoosting Regressor": CatBoostRegressor(verbose=False)
+            params = {
+            		"Linear Regression": {
+                        # LinearRegression rarely needs param tuning; can keep empty or add 'fit_intercept'
+                        'fit_intercept': [True, False]
+                    },
+                    "Lasso": {
+                        'alpha': [0.001, 0.01, 0.1, 1, 10],
+                        'selection': ['cyclic', 'random']
+                    },
+                    "Ridge": {
+                        'alpha': [0.01, 0.1, 1, 10, 100],
+                        'solver': ['svd', 'cholesky', 'lsqr']
+                    },
+                    "K-Neighbors Regressor": {
+                        'n_neighbors': [3, 5, 7, 9],
+                        'weights': ['uniform', 'distance'],
+                        'p': [1, 2]  # p=1: Manhattan, p=2: Euclidean distance
+                    },
+                    "Decision Tree": {
+                        'max_depth': [None, 5, 10, 15],
+                        'min_samples_split': [2, 5, 10],
+                        'min_samples_leaf': [1, 2, 4]
+                    },
+                    "AdaBoost Regressor": {
+                        'n_estimators': [50, 100, 200],
+                        'learning_rate': [0.01, 0.1, 1]
+                    },
+                    "GradientBoosting": {
+                        'n_estimators': [100, 200],
+                        'learning_rate': [0.01, 0.1],
+                        'max_depth': [3, 5, 7]
+                    },
+                    "Random Forest Regressor": {
+                        'n_estimators': [100, 200],
+                        'max_depth': [None, 10, 20],
+                        'min_samples_split': [2, 5],
+                        'min_samples_leaf': [1, 2]
+                    },
+                    "XGBRegressor": {
+                        'n_estimators': [100, 200],
+                        'learning_rate': [0.01, 0.1],
+                        'max_depth': [3, 5, 7]
+                    },
+                    "CatBoosting Regressor": {
+                        'depth': [4, 6, 8],
+                        'learning_rate': [0.01, 0.1],
+                        'iterations': [500, 1000],
+                        'l2_leaf_reg': [1, 3, 5]
+                    }
             }
             
+            logging.info("Hyperparameter finetune starting!")
+            models:dict = finetune_hyperparameter(params=params,X_train=X_train,y_train=y_train)
+            logging.info("Hyperparameter finetune completed!")
             model_report : dict = evaluate_models(X_train=X_train,X_test=X_test,
                                                  y_train=y_train,y_test=y_test,models=models)
-            
+            return None
             best_model_name = max(model_report,key=model_report.get)
             best_model_score = model_report[best_model_name]
             best_model = models[best_model_name]
@@ -71,5 +112,6 @@ class ModelTrainer:
             
         except Exception as e:
             raise CustomException(e,sys)
-    
-    
+
+
+
