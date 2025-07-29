@@ -156,41 +156,4 @@ class ModelTrainer:
             raise CustomException(e,sys)
 
 
-# Traceback (most recent call last):
-#   File "D:\Projects\MLPROJECT\src\utils.py", line 29, in evaluate_models
-#     best_model.set_params(**params)
-#   File "D:\Projects\MLPROJECT\venv\Lib\site-packages\catboost\core.py", line 3537, in set_params
-#     raise CatBoostError("You can't change params of fitted model.")
-# _catboost.CatBoostError: You can't change params of fitted model.
 
-# During handling of the above exception, another exception occurred:
-
-# Traceback (most recent call last):
-#   File "D:\Projects\MLPROJECT\src\components\model_trainer.py", line 137, in initiate_model_trainer
-#     model_report : dict = evaluate_models(X_train=X_train,X_test=X_test,
-#                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-#   File "D:\Projects\MLPROJECT\src\utils.py", line 39, in evaluate_models
-#     raise CustomException(e,sys)
-# src.exception.CustomException: Error occurred in python:
-# script name : [D:\Projects\MLPROJECT\src\utils.py]
-# line number : [29]
-# error message : [You can't change params of fitted model.]
-
-# During handling of the above exception, another exception occurred:
-
-# Traceback (most recent call last):
-#   File "<frozen runpy>", line 198, in _run_module_as_main
-#   File "<frozen runpy>", line 88, in _run_code
-#   File "D:\Projects\MLPROJECT\src\components\data_ingestion.py", line 55, in <module>
-#     r2_score = model.initiate_model_trainer(train_array=train_arr,test_array=test_arr)
-#                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-#   File "D:\Projects\MLPROJECT\src\components\model_trainer.py", line 156, in initiate_model_trainer
-#     raise CustomException(e,sys)
-# src.exception.CustomException: Error occurred in python:
-# script name : [D:\Projects\MLPROJECT\src\components\model_trainer.py]
-# line number : [137]
-# error message : [Error occurred in python:
-# script name : [D:\Projects\MLPROJECT\src\utils.py]
-# line number : [29]
-# error message : [You can't change params of fitted model.]]
-# (venv) PS D:\Projects\MLPROJECT> cls
