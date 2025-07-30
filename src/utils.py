@@ -58,6 +58,14 @@ def finetune_hyperparameter(params,X_train,y_train):
     except Exception as e:
         raise CustomException(e,sys)
 
+def load_object(file_path):
+    try:
+        with open(file_path,'rb') as f:
+            return dill.load(f)
+    except Exception as e:
+        raise CustomException(e,sys)
+
+
 # def finetune_hyperparameter(params, X_train, y_train, n_iter=20):
 #     best_models = {}
 #     for name, config in params.items():
@@ -79,4 +87,3 @@ def finetune_hyperparameter(params,X_train,y_train):
 #             'best_params': random_search.best_params_
 #         }
 #     return best_models
-

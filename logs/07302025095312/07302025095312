@@ -1,0 +1,13 @@
+[2025-07-30 09:53:14,144] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 09:53:14,150] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 09:53:24,908] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:53:24] "GET / HTTP/1.1" 200 -
+[2025-07-30 09:53:38,862] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:53:38] "GET /predict HTTP/1.1" 200 -
+[2025-07-30 09:54:06,835] 42 root - INFO - predict is begning
+[2025-07-30 09:54:06,835] 45 root - INFO - object load
+[2025-07-30 09:54:09,023] 48 root - INFO - object loaded complete
+[2025-07-30 09:54:09,077] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:54:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-07-30 09:54:09,405] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:54:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-30 09:54:09,407] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:54:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-30 09:54:09,450] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:54:09] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=6cw4RiiadIQdoJAeQmH8 HTTP/1.1" 200 -
+[2025-07-30 09:54:09,473] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:54:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-30 10:04:49,248] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\src\\utils.py', reloading

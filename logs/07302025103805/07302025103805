@@ -1,0 +1,13 @@
+[2025-07-30 10:38:08,075] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 10:38:08,085] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 10:38:14,731] 42 root - INFO - predict is begning
+[2025-07-30 10:38:14,731] 45 root - INFO - object load
+[2025-07-30 10:38:15,969] 51 root - INFO - object loaded complete
+[2025-07-30 10:38:16,098] 54 root - INFO - predict completed
+[2025-07-30 10:38:16,110] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:38:16] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 10:38:51,244] 42 root - INFO - predict is begning
+[2025-07-30 10:38:51,245] 45 root - INFO - object load
+[2025-07-30 10:38:51,299] 51 root - INFO - object loaded complete
+[2025-07-30 10:38:51,314] 54 root - INFO - predict completed
+[2025-07-30 10:38:51,315] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:38:51] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 10:40:03,282] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\src\\pipeline\\predict_pipeline.py', reloading

@@ -1,0 +1,4 @@
+# Always use LF for text files
+*.py text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
