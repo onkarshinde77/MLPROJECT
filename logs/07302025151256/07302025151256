@@ -1,0 +1,54 @@
+[2025-07-30 15:12:59,625] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 15:12:59,639] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 15:18:48,917] 42 root - INFO - predict is begning
+[2025-07-30 15:18:48,924] 45 root - INFO - object load
+[2025-07-30 15:18:52,398] 48 root - INFO - object loaded complete
+[2025-07-30 15:18:52,514] 51 root - INFO - predict completed
+[2025-07-30 15:18:52,668] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:18:52] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:18:53,125] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:18:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 15:19:20,747] 42 root - INFO - predict is begning
+[2025-07-30 15:19:20,747] 45 root - INFO - object load
+[2025-07-30 15:19:20,749] 48 root - INFO - object loaded complete
+[2025-07-30 15:19:20,764] 51 root - INFO - predict completed
+[2025-07-30 15:19:20,765] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:19:20] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:19:24,772] 42 root - INFO - predict is begning
+[2025-07-30 15:19:24,772] 45 root - INFO - object load
+[2025-07-30 15:19:24,776] 48 root - INFO - object loaded complete
+[2025-07-30 15:19:24,792] 51 root - INFO - predict completed
+[2025-07-30 15:19:24,793] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:19:24] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:22:05,977] 42 root - INFO - predict is begning
+[2025-07-30 15:22:05,979] 45 root - INFO - object load
+[2025-07-30 15:22:05,990] 48 root - INFO - object loaded complete
+[2025-07-30 15:22:06,043] 51 root - INFO - predict completed
+[2025-07-30 15:22:06,132] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:06] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:22:12,544] 42 root - INFO - predict is begning
+[2025-07-30 15:22:12,544] 45 root - INFO - object load
+[2025-07-30 15:22:12,547] 48 root - INFO - object loaded complete
+[2025-07-30 15:22:12,562] 51 root - INFO - predict completed
+[2025-07-30 15:22:12,563] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:12] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:22:12,722] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 15:22:38,026] 42 root - INFO - predict is begning
+[2025-07-30 15:22:38,028] 45 root - INFO - object load
+[2025-07-30 15:22:38,032] 48 root - INFO - object loaded complete
+[2025-07-30 15:22:38,056] 51 root - INFO - predict completed
+[2025-07-30 15:22:38,057] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:38] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:22:38,130] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 15:24:54,400] 42 root - INFO - predict is begning
+[2025-07-30 15:24:54,401] 45 root - INFO - object load
+[2025-07-30 15:24:54,410] 48 root - INFO - object loaded complete
+[2025-07-30 15:24:54,456] 51 root - INFO - predict completed
+[2025-07-30 15:24:54,562] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:24:54] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:24:54,734] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:24:54] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-07-30 15:25:16,867] 42 root - INFO - predict is begning
+[2025-07-30 15:25:16,869] 45 root - INFO - object load
+[2025-07-30 15:25:16,876] 48 root - INFO - object loaded complete
+[2025-07-30 15:25:16,910] 51 root - INFO - predict completed
+[2025-07-30 15:25:16,912] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:25:16] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:25:17,018] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:25:17] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-07-30 15:25:29,730] 42 root - INFO - predict is begning
+[2025-07-30 15:25:29,731] 45 root - INFO - object load
+[2025-07-30 15:25:29,737] 48 root - INFO - object loaded complete
+[2025-07-30 15:25:29,757] 51 root - INFO - predict completed
+[2025-07-30 15:25:29,758] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:25:29] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:25:29,834] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:25:29] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-07-30 16:48:53,179] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading

@@ -25,8 +25,8 @@ def predict():
         pred_df = data.get_data_in_dataframe()
         pred_obj = PredictPipelines()
         pred = pred_obj.predict(pred_df)
-        return render_template('home.html',results=pred[0])
-    return render_template('home.html',results=None)
+        return render_template('home.html',results=pred[0],display1=None)
+    return render_template('home.html',display2=None)
 
 if __name__=="__main__":
     app.run(host='0.0.0.0',debug=True)
