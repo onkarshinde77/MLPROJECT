@@ -6,6 +6,7 @@
 # xgboost
 # catboost
 # dill
+# flask
 
 asttokens               3.0.0
 catboost                1.2.8
@@ -59,6 +60,7 @@ traitlets               5.14.3
 tzdata                  2025.2
 wcwidth                 0.2.13
 xgboost                 3.0.2
+flask
 
 # to fetch the setup.py automatic & run
 # -e .

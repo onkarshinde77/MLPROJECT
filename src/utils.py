@@ -22,17 +22,14 @@ def save_obj(file_path,obj):
 def evaluate_models(X_train,X_test,y_train,y_test,models):
     try:
         report={}
-        for key,value in models.items():
-            model = value
-            best_model = model['best_model']
+        for name,model in models.items():
+            best_model = type(model['best_model'])
             params = model['best_params']
-            best_model.set_params(**params)
+            best_model = best_model(**params) 
             best_model.fit(X_train,y_train)
-            # y_train_pred = model.predict(X_train)
             y_test_pred = best_model.predict(X_test)
-            # train_score = r2_score(y_train,y_train_pred)
             test_score = r2_score(y_test,y_test_pred)
-            report[key] = test_score
+            report[name] = test_score
         return report
     
     except Exception as e:        
@@ -61,6 +58,14 @@ def finetune_hyperparameter(params,X_train,y_train):
     except Exception as e:
         raise CustomException(e,sys)
 
+def load_object(file_path):
+    try:
+        with open(file_path,'rb') as f:
+            return dill.load(f)
+    except Exception as e:
+        raise CustomException(e,sys)
+
+
 # def finetune_hyperparameter(params, X_train, y_train, n_iter=20):
 #     best_models = {}
 #     for name, config in params.items():
@@ -82,4 +87,3 @@ def finetune_hyperparameter(params,X_train,y_train):
 #             'best_params': random_search.best_params_
 #         }
 #     return best_models
-

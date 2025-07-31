@@ -1,0 +1,10 @@
+[2025-07-30 10:05:08,161] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 10:05:08,166] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 10:05:10,874] 42 root - INFO - predict is begning
+[2025-07-30 10:05:10,874] 45 root - INFO - object load
+[2025-07-30 10:05:12,209] 48 root - INFO - object loaded complete
+[2025-07-30 10:05:12,234] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:05:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-07-30 10:05:12,485] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:05:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-30 10:05:12,485] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:05:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-30 10:05:12,572] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:05:12] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=lL30LeZ68rVRrrP0qumI HTTP/1.1" 200 -
+[2025-07-30 10:05:12,610] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 10:05:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

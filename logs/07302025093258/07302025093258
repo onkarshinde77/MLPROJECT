@@ -1,0 +1,8 @@
+[2025-07-30 09:33:01,023] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 09:33:01,034] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 09:33:08,175] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:33:08] "GET / HTTP/1.1" 200 -
+[2025-07-30 09:33:23,580] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:33:23] "[35m[1mGET /predict_data HTTP/1.1[0m" 500 -
+[2025-07-30 09:33:23,874] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:33:23] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-30 09:33:23,877] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:33:23] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-30 09:33:23,919] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 09:33:23] "GET /predict_data?__debugger__=yes&cmd=resource&f=console.png&s=YBwTQKmcxrtKWaMJpBKH HTTP/1.1" 200 -
+[2025-07-30 09:36:56,708] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading

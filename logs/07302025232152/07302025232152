@@ -1,0 +1,5 @@
+[2025-07-30 23:21:56,097] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 23:21:56,108] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 23:22:32,054] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:22:32] "GET /predict HTTP/1.1" 200 -
+[2025-07-30 23:22:32,269] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:22:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 23:23:56,930] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading

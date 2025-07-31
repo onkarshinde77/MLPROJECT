@@ -1,0 +1,10 @@
+[2025-07-30 23:24:03,311] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 23:24:03,322] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 23:24:03,575] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:24:03] "GET /predict HTTP/1.1" 200 -
+[2025-07-30 23:24:03,871] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:24:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 23:24:26,909] 42 root - INFO - predict is begning
+[2025-07-30 23:24:26,910] 45 root - INFO - object load
+[2025-07-30 23:24:41,705] 48 root - INFO - object loaded complete
+[2025-07-30 23:24:41,770] 51 root - INFO - predict completed
+[2025-07-30 23:24:41,773] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:24:41] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 23:24:41,861] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 23:24:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

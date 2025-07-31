@@ -1,0 +1,17 @@
+[2025-07-30 15:07:07,168] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-30 15:07:07,177] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-30 15:07:22,936] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:07:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2025-07-30 15:07:23,232] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:07:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-07-30 15:07:23,239] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:07:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-07-30 15:07:23,428] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:07:23] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=FShGcHqK86nLlElKUbRL HTTP/1.1" 200 -
+[2025-07-30 15:07:23,481] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:07:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-07-30 15:09:08,043] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:09:08] "GET / HTTP/1.1" 200 -
+[2025-07-30 15:09:17,228] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:09:17] "GET /predict HTTP/1.1" 200 -
+[2025-07-30 15:09:17,289] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:09:17] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-07-30 15:09:45,974] 42 root - INFO - predict is begning
+[2025-07-30 15:09:45,975] 45 root - INFO - object load
+[2025-07-30 15:09:48,023] 48 root - INFO - object loaded complete
+[2025-07-30 15:09:48,125] 51 root - INFO - predict completed
+[2025-07-30 15:09:48,126] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:09:48] "POST /predict HTTP/1.1" 200 -
+[2025-07-30 15:09:48,195] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:09:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-30 15:12:53,483] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading
