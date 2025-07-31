@@ -1,0 +1,4 @@
+[2025-07-31 11:48:38,400] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-31 11:48:38,404] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-31 11:49:34,157] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:49:34] "GET /about HTTP/1.1" 200 -
+[2025-07-31 11:49:58,290] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:49:58] "GET /about HTTP/1.1" 200 -

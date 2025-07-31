@@ -100,3 +100,26 @@ MLPROJECT/
 ├── .gitignore
 │
 └── node_modules/  # If using Node for some frontend assets (optional)
+
+## Given desciption for Likedin post
+
+🚀 Excited to share my end-to-end Machine Learning project!
+I built a predictive application that estimates student math scores using features like gender, race/ethnicity, parental education, lunch type, test preparation, and reading & writing scores.
+
+Here’s what I worked on:
+📊 Deep exploratory data analysis (EDA)
+💡 Advanced feature engineering for improved performance
+🔧 Hyperparameter tuning and testing multiple algorithms
+🛠️ Designed robust ML pipelines and ensured clean exception handling
+⛓️ Backend API developed with Flask for easy integration
+🐳 Containerized the project with Docker for reproducibility
+☁️ Seamless deployment on AWS Elastic Beanstalk
+⬆️ Source code and workflow managed via GitHub
+
+Why this matters:
+This project expanded my hands-on expertise in practical ML, DevOps best practices, and deploying reliable AI services to production.
+It’s been a fantastic learning journey, from raw data to a fully-operational cloud deployment!
+
+🔗 Feel free to check out the project or connect if you want to chat about ML engineering.
+
+#MachineLearning #Flask #AWS #Docker #DataScience #StudentPerformance
