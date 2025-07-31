@@ -1,0 +1,11 @@
+[2025-07-31 11:12:21,270] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-31 11:12:21,291] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-31 11:12:21,451] 42 root - INFO - predict is begning
+[2025-07-31 11:12:21,452] 45 root - INFO - object load
+[2025-07-31 11:12:24,127] 48 root - INFO - object loaded complete
+[2025-07-31 11:12:24,188] 51 root - INFO - predict completed
+[2025-07-31 11:12:24,281] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:12:24] "POST /predict HTTP/1.1" 200 -
+[2025-07-31 11:12:24,855] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:12:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 11:12:55,644] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:12:55] "GET /about HTTP/1.1" 200 -
+[2025-07-31 11:14:03,041] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 11:14:03] "GET /predict HTTP/1.1" 200 -
+[2025-07-31 11:14:46,124] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading

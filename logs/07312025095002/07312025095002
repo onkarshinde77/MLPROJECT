@@ -1,0 +1,36 @@
+[2025-07-31 09:50:05,380] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-31 09:50:05,390] 97 werkzeug - INFO -  * Debugger PIN: 664-171-102
+[2025-07-31 09:50:05,493] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:50:05] "GET / HTTP/1.1" 200 -
+[2025-07-31 09:50:05,495] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:50:05] "GET / HTTP/1.1" 200 -
+[2025-07-31 09:50:49,007] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:50:49] "GET /predict HTTP/1.1" 200 -
+[2025-07-31 09:50:49,321] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:50:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 09:51:11,817] 42 root - INFO - predict is begning
+[2025-07-31 09:51:11,817] 45 root - INFO - object load
+[2025-07-31 09:51:25,106] 48 root - INFO - object loaded complete
+[2025-07-31 09:51:25,160] 51 root - INFO - predict completed
+[2025-07-31 09:51:25,163] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:51:25] "POST /predict HTTP/1.1" 200 -
+[2025-07-31 09:51:25,247] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:51:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 09:52:30,064] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:52:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 09:52:30,081] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:52:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:52:51,728] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:52:51] "GET /predict HTTP/1.1" 200 -
+[2025-07-31 09:52:51,864] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:52:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:52:51,919] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 09:53:08,982] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:53:10,521] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:53:10,565] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:53:53,630] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:53] "GET /predict HTTP/1.1" 200 -
+[2025-07-31 09:53:53,812] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-31 09:53:53,877] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:53:53] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-07-31 09:54:17,795] 42 root - INFO - predict is begning
+[2025-07-31 09:54:17,796] 45 root - INFO - object load
+[2025-07-31 09:54:17,810] 48 root - INFO - object loaded complete
+[2025-07-31 09:54:17,892] 51 root - INFO - predict completed
+[2025-07-31 09:54:17,896] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:54:17] "POST /predict HTTP/1.1" 200 -
+[2025-07-31 09:54:17,991] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:54:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 09:54:43,814] 42 root - INFO - predict is begning
+[2025-07-31 09:54:43,814] 45 root - INFO - object load
+[2025-07-31 09:54:43,820] 48 root - INFO - object loaded complete
+[2025-07-31 09:54:43,838] 51 root - INFO - predict completed
+[2025-07-31 09:54:43,928] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:54:43] "POST /predict HTTP/1.1" 200 -
+[2025-07-31 09:54:43,984] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 09:54:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-07-31 11:12:09,599] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\MLPROJECT\\app.py', reloading

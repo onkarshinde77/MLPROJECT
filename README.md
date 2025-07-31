@@ -58,13 +58,13 @@ touch README.md
 
 7. **Now create data_injection :** 
     - A data injection file in a project (often called "data ingestion" or "data injection") is typically created to handle the process of collecting, loading, and injecting raw or external data into your system or pipeline. The purpose of such a file or module is to centralize and organize how raw data enters your project for further processing, analysis, or model training.
+
 8. **Create data_transformation.py & model_trainer.py**
     - data_transformation.py : seperate the num columns & catagorical columns and tranform it by using OneHotEncoder & StandardScaler and return train & test array (preprocessor.pkl)
     - model_trainer.py : seperate input & target features and hyperparameter tunning. then return best models dictionary contains the models . (model.pkl)
 9. **Now create the train_pipeline.py & predict_pipeline.py**
 10. **Create backend in Flask/django with frontend using jinja templates** 
 11. **Deploy on AWS/render**
-
 
 ## Final ML project Architecture
 

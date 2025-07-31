@@ -114,6 +114,7 @@ h2 {
     border-radius: 8px;
     color: #4a6baf;
     font-size: 1.2rem;
+    max-width: 600px;
 }
 
 /* Responsive Design */
