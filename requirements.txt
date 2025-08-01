@@ -12,4 +12,4 @@ catboost==1.2.8
 
 
 # to fetch the setup.py automatic & run
-# -e .
+-e .
