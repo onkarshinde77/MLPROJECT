@@ -124,9 +124,11 @@ It’s been a fantastic learning journey, from raw data to a fully-operational c
 
 #MachineLearning #Flask #AWS #Docker #DataScience #StudentPerformance
 
-## Author
+## 👤 Author
 
-**Onkar Shinde**  
+### Onkar Shinde
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/onkarshinde77)  
 [![Docker Hub](https://img.shields.io/badge/DockerHub-Profile-blue)](https://hub.docker.com/repository/docker/onkarshinde77/mlproject/general)  
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange)](https://leetcode.com/onkarshinde77)
+
