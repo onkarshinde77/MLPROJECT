@@ -123,3 +123,10 @@ It’s been a fantastic learning journey, from raw data to a fully-operational c
 🔗 Feel free to check out the project or connect if you want to chat about ML engineering.
 
 #MachineLearning #Flask #AWS #Docker #DataScience #StudentPerformance
+
+## Author
+
+**Onkar Shinde**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/onkarshinde77)  
+[![Docker Hub](https://img.shields.io/badge/DockerHub-Profile-blue)](https://hub.docker.com/repository/docker/onkarshinde77/mlproject/general)  
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange)](https://leetcode.com/onkarshinde77)
