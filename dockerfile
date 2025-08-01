@@ -5,6 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Correct typo in 'pip install'
+# RUN pip install --default-timeout=300  -r requirements.txt
 RUN pip install --default-timeout=300 --no-cache-dir -r requirements.txt
 
 # Copy all remaining files into the container

@@ -1,7 +1,7 @@
 from flask import Flask , render_template , request
 from src.pipeline.predict_pipeline import CustomData,CustomException
 from src.pipeline.predict_pipeline import PredictPipelines
-
+import os
 app = Flask(__name__)
 
 @app.route('/')
@@ -34,5 +34,9 @@ from flask import render_template
 def about():
     return render_template('about.html')
 
-if __name__=="__main__":
-    app.run(host='0.0.0.0')
+if __name__ == "__main__":
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000)),
+        debug=True
+    )
