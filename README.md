@@ -1,15 +1,37 @@
 # End to End machine learning project
 
+### 🚀 Excited to share my end-to-end Machine Learning project!
+**I built a predictive application that estimates student math scores using features like gender, race/ethnicity, parental education, lunch type, test preparation, and reading & writing scores.**
+
+**Here’s what I worked on:**
+**📊 Deep exploratory data analysis (EDA)**
+**💡 Advanced feature engineering for improved performance**
+**🔧 Hyperparameter tuning and testing multiple algorithms**
+**🛠️ Designed robust ML pipelines and ensured clean exception handling**
+**⛓️ Backend API developed with Flask for easy integration**
+**🐳 Containerized the project with Docker for reproducibility**
+**☁️ Seamless deployment on AWS Elastic Beanstalk**
+**⬆️ Source code and workflow managed via GitHub**
+
+**Why this matters:**
+**This project expanded my hands-on expertise in practical ML, DevOps best practices, and deploying reliable AI services to production.**
+**It’s been a fantastic learning journey, from raw data to a fully-operational cloud deployment!**
+
+**🔗 Feel free to check out the project or connect if you want to chat about ML engineering.**
+
+
 # Other Information : 
 ### In a machine learning (ML) project, a setup.py file is used primarily to package and distribute your project as a Python package. This file contains metadata about your project—such as its name, version, author, dependencies (required libraries like NumPy, Pandas, scikit-learn), and other configuration details—to enable easy installation and reuse
 
-## Note : The __init__.py file is used in Python projects to mark a directory as a Python package. This means that when a directory contains an __init__.py file, Python treats it as a package, allowing you to import modules from that directory using the package syntax.
+### Note : The __init__.py file is used in Python projects to mark a directory as a Python package. This means that when a directory contains an __init__.py file, Python treats it as a package, allowing you to import modules from that directory using the package syntax.
 
 # Process to creating project
 1. **Initialize/create git repo and clone it in code**
 2. **Create vertual environment & activate**
 ```
 python -m venv venv
+```
+```
 venv\Scripts\activate
 ```
 3. **Create setup.py for setup dependency & configuration**
@@ -100,3 +122,19 @@ MLPROJECT/<br>
 ├── .gitignore<br>
 │<br>
 └── node_modules/  # If using Node for some frontend assets (optional)<br>
+
+## 👤 Author
+
+### **Onkar Shinde**
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/onkarshinde77" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://hub.docker.com/repository/docker/onkarshinde77/mlproject/general" target="_blank">
+    <img src="https://img.shields.io/badge/Docker Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge"/>
+  </a>
+  <a href="https://leetcode.com/onkarshinde77" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode Badge"/>
+  </a>
+</p>
