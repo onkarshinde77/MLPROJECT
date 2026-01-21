@@ -51,15 +51,13 @@ touch README.md
 3. **create**
     - .gitignore
     - run.sh (write all command from begening to end)
-    - readme.md
-    - setup.py 
     - requirements.txt (include (-e .) in last)
 ### Note : push/pull everytime code on github
 
-4. **Create logger & exception**
-    - logger.py : creates a reusable logger configuration that writes logs to both the console and a file, includin 
+4. **Create logger & exception file in src**
+    - logger.py : creates a reusable logger configuration that writes logs to both the console and in a files, including 
                   timestamps and log levels.
-    - exception.py : user define exception using sys library
+    - exception.py : user define exception using sys library to debugs the project
 
 5. **Create Notebook directory to Perform EDA(Exploratory Data Analysis) to understand the Dataset**<br>
     Notebook/<br>
